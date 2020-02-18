@@ -36,3 +36,10 @@ function removeLastKitten() {
   return kittens;
 }
 removeLastKitten();
+
+function removeFirstKitten() {
+  var kittens = ["Milo", "Otis", "Garfield"];
+  kittens.shift();
+  return kittens;
+}
+removeFirstKitten();
