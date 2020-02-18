@@ -29,3 +29,7 @@ function prependKitten(name) {
   return kittens;
 }
 prependKitten('Arnold');
+
+function removeLastKitten() {
+  
+}
