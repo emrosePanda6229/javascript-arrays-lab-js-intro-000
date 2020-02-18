@@ -35,3 +35,4 @@ function removeLastKitten() {
   kittens.pop();
   return kittens;
 }
+removeLastKitten();
