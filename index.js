@@ -25,7 +25,7 @@ appendKitten('Broome');
 
 function prependKitten(name) {
   var kittens = ["Milo", "Otis", "Garfield"];
-  kittens.push(name);
+  kittens.unshift(name);
   return kittens;
 }
-prependKitten('Broome');
+prependKitten('Arnold');
