@@ -22,3 +22,10 @@ function appendKitten(name) {
   return kittens;
 }
 appendKitten('Broome');
+
+function prependKitten(name) {
+  var kittens = ["Milo", "Otis", "Garfield"];
+  kittens.push(name);
+  return kittens;
+}
+prependKitten('Broome');
